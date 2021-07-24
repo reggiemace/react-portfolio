@@ -5,9 +5,10 @@
   color: #333;
 }
 .header {
-  background-color: brown;
+  background-color: #d2ab99;
   padding: 20px;
-  margin: 10px;
+  /* margin: 10px; */
+  width: auto;
 }
 .navbar {
   display: flex;
@@ -30,14 +31,54 @@
 .content {
   margin: 1px auto;
   padding: 10px;
+  background-color: #bdbea9;
 }
 
 .about {
-  background-color: aqua;
+  overflow: scroll;
+  display: block;
+  background-color: #8db38b;
   padding: 20px;
+  height: 300px;
 }
 .footer {
-  background-color: brown;
+  background-color: #d2ab99;
   padding: 20px;
-  margin: 10px;
+}
+.profile-pic {
+  height: 150px;
+  float: left;
+  margin-right: 50px;
+  border-radius: 100px;
+}
+.bio-desc {
+  padding-left: px;
+}
+.projects {
+  overflow: scroll;
+}
+.horiseon {
+  width: 100%;
+}
+.password-gen {
+  width: 100%;
+}
+.workday {
+  width: 100%;
+}
+.code-quiz {
+  width: 100%;
+}
+.marvel {
+  width: 100%;
+}
+.resume {
+  text-align: center;
+}
+.resume_image {
+  width: 100%;
+}
+.contact {
+  text-align: center;
+  color: white;
 }

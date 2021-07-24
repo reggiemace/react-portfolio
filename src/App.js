@@ -4,6 +4,7 @@ import About from "./components/About";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 import Projects from "./components/Projects";
+import Resume from "./components/Resume";
 
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
@@ -23,6 +24,9 @@ function App() {
             </Route>
             <Route path="/projects">
               <Projects />
+            </Route>
+            <Route path="/resume">
+              <Resume />
             </Route>
           </Switch>
         </div>
